@@ -53,11 +53,11 @@ export default function Slides() {
                                 <div className="w-full h-full flex items-center justify-center">
                                     <picture className="w-full h-full">
                                         <source
-                                            srcSet={`/images/${slide.imageBaseName}-desktop.png`}
+                                            srcSet={`./images/${slide.imageBaseName}-desktop.png`}
                                             media="(min-width: 768px)"
                                         />
                                         <img
-                                            src={`/images/${slide.imageBaseName}-mobile.png`}
+                                            src={`./images/${slide.imageBaseName}-mobile.png`}
                                             alt={slide.title}
                                             className="w-full h-full object-contain md:object-cover md:object-[center_20%] rounded-xl shadow-lg aspect-auto md:aspect-[16/9] transition-all duration-700 ease-in-out"
                                         />
